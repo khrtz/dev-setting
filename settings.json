@@ -1,0 +1,120 @@
+{
+  "files.insertFinalNewline": false,
+  "editor.wordWrap": "on",
+  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
+  "holiday.gearIconStyle": "beach",
+  "editor.renderWhitespace": "all", // スペースの表示
+  "editor.insertSpaces": true,
+  "workbench.iconTheme": "vs-seti",
+  "workbench.activityBar.visible": true, // default
+  "flow.pathToFlow": "./node_modules/.bin/flow",
+  "javascript.validate.enable": false,
+  "atomKeymap.promptV3Features": true,
+  // Changes the multi cursor mouse binding
+  "editor.multiCursorModifier": "ctrlCmd",
+  // Controls whether format on paste is on or off
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "favorites.saveSeparated": false, // whether to use an extra config file
+  "editor.fontSize": 12,
+  "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/tmp": true,
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/dist": true,
+      "**/.happypack": true,
+      "**/assets": false,
+      "**/build": true,
+      "**/coverage": true,
+      "**/vendor": true,
+      "node_modules": true
+  },
+  "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true,
+      "**/tmp/**": true,
+      "**/bower_components/**": true,
+      "**/dist/**": true,
+      "**/.happypack/**": true,
+      "**/assets/**": false,
+      "**/build/**": true,
+      "**/coverage/**": true,
+      "node_modules": true
+  },
+  "tslint.ignoreDefinitionFiles": false,
+  "window.nativeTabs": true,
+  "workbench.editor.showTabs": true,
+  "workbench.editor.enablePreview": false,
+  "go.gopath": "/Users/a14504/go",
+  "go.formatOnSave": true,
+  "solidity.compileUsingRemoteVersion": "latest",
+  "solidity.linter": "solium",
+  "solidity.soliumRules": {
+      "quotes": ["error", "double"],
+      "indentation": ["error", 4]
+  },
+  "workbench.sideBar.location": "left",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.scrollback": 10000,
+  "typescript.referencesCodeLens.enabled": true,
+  "editor.smoothScrolling": true,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.fontAliasing": "auto",
+  "editor.codeLens": false,
+  "editor.hover.delay": 200,
+  "gitlens.advanced.messages": {
+      "suppressShowKeyBindingsNotice": true
+  },
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "breadcrumbs.enabled": true,
+  "editor.renderControlCharacters": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "vsonline.planFilter": "/subscriptions/e5948425-c01c-43d5-bd02-8d6fe357654e/resourceGroups/vso-rg-bcd65f7/providers/Microsoft.VSOnline/plans/vso-plan-southeastasia",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.explorerKind": "external",
+  "workbench.colorTheme": "Dracula",
+  "vsonline.accountProvider": "Microsoft",
+  "hediet.vscode-drawio.local-storage": {
+      ".drawio-config": {
+          "language": "",
+          "customFonts": [],
+          "libraries": "general;uml;er;bpmn;flowchart;basic;arrows2",
+          "customLibraries": [
+              "L.scratchpad"
+          ],
+          "plugins": [],
+          "recentColors": [],
+          "formatWidth": "240",
+          "createTarget": false,
+          "pageFormat": {
+              "x": 0,
+              "y": 0,
+              "width": 827,
+              "height": 1169
+          },
+          "search": true,
+          "showStartScreen": true,
+          "gridColor": "#d0d0d0",
+          "darkGridColor": "#6e6e6e",
+          "autosave": true,
+          "resizeImages": null,
+          "openCounter": 0,
+          "version": 18,
+          "unit": 1,
+          "isRulerOn": false,
+          "ui": ""
+      }
+  },
+  "codespaces.accountProvider": "Microsoft",
+  "codespaces.planFilter": "/subscriptions/e5948425-c01c-43d5-bd02-8d6fe357654e/resourceGroups/vso-rg-bcd65f7/providers/Microsoft.VSOnline/plans/vso-plan-southeastasia",
+  "vscode-edge-devtools.headless": true,
+  "vscode-edge-devtools.enableNetwork": true
+}
